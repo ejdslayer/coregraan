@@ -15,6 +15,9 @@
 		4F1DBBFF1DEEFDBC00A66C25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1DBBFD1DEEFDBC00A66C25 /* LaunchScreen.storyboard */; };
 		4F1DBC0A1DEEFDBC00A66C25 /* TestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DBC091DEEFDBC00A66C25 /* TestingTests.swift */; };
 		4F1DBC151DEEFDBC00A66C25 /* TestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DBC141DEEFDBC00A66C25 /* TestingUITests.swift */; };
+		4F1DBC231DEEFDE000A66C25 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DBC221DEEFDE000A66C25 /* PushButtonView.swift */; };
+		4F1DBC251DEF038400A66C25 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DBC241DEF038400A66C25 /* CounterView.swift */; };
+		4F1DBC271DF097F700A66C25 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DBC261DF097F700A66C25 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		4F1DBC101DEEFDBC00A66C25 /* TestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1DBC141DEEFDBC00A66C25 /* TestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUITests.swift; sourceTree = "<group>"; };
 		4F1DBC161DEEFDBC00A66C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1DBC221DEEFDE000A66C25 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		4F1DBC241DEF038400A66C25 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		4F1DBC261DF097F700A66C25 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 			children = (
 				4F1DBBF11DEEFDBC00A66C25 /* AppDelegate.swift */,
 				4F1DBBF31DEEFDBC00A66C25 /* ViewController.swift */,
+				4F1DBC221DEEFDE000A66C25 /* PushButtonView.swift */,
+				4F1DBC241DEF038400A66C25 /* CounterView.swift */,
+				4F1DBC261DF097F700A66C25 /* GraphView.swift */,
 				4F1DBBF51DEEFDBC00A66C25 /* Main.storyboard */,
 				4F1DBBFB1DEEFDBC00A66C25 /* Assets.xcassets */,
 				4F1DBBFD1DEEFDBC00A66C25 /* LaunchScreen.storyboard */,
@@ -264,7 +273,10 @@
 			files = (
 				4F1DBBF41DEEFDBC00A66C25 /* ViewController.swift in Sources */,
 				4F1DBBF21DEEFDBC00A66C25 /* AppDelegate.swift in Sources */,
+				4F1DBC231DEEFDE000A66C25 /* PushButtonView.swift in Sources */,
 				4F1DBBFA1DEEFDBC00A66C25 /* Testing.xcdatamodeld in Sources */,
+				4F1DBC251DEF038400A66C25 /* CounterView.swift in Sources */,
+				4F1DBC271DF097F700A66C25 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
